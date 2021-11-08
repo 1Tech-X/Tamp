@@ -12,6 +12,8 @@ Tamp is use MariaDb the old MySQL server is also included PhpMyAdmin feature.<br
   <li>MariaDB</li>
   <li>PhpMyAdmin</li>
   <li>DocumentRoot Options</li>
+  <li>Check http Access & Error Logs</li>
+  <li>Clear log files history</li>
  </ul>
  
  <h4>Installation:</h4><hr>
