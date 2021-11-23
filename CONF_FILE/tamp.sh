@@ -26,7 +26,7 @@ case ${option} in
 	   spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
 	   for i in "${spinner[@]}"
 	   do
-		   echo -ne "\033[1;34m\r[\e[1;31m*\e[1;34m] Starting Tamp Server.....\e[34m[\033[31m$i\033[34m]\033[0m   ";
+		   echo -ne "\033[1;34m\r[\e[1;31m*\e[1;34m] Stopping Tamp Server.....\e[34m[\033[31m$i\033[34m]\033[0m   ";
 		   sleep .30s
 		   printf "\b\b\b\b\b\b\b\b";
 	   done
