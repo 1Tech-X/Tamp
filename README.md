@@ -24,3 +24,10 @@ Tamp is use MariaDb the old MySQL server is also included PhpMyAdmin feature.<br
  <h4>Usage:</h4>
  tamp -h 
  
+ ## Update Tamp Webserver
+Copy this line and paste it on termux
+```
+curl -LO https://raw.githubusercontent.com/1Tech-X/Tamp/main/update_tamp.sh
+```
+<h5>Run with bash</h5>
+<h5>bash update_tamp.sh</h5>
