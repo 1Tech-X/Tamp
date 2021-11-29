@@ -178,6 +178,10 @@ case ${option} in
 	     printf "\e[1;32mLog Files cleared successfully\e[0m\n"
 
       ;;
+    -v)
+	    echo "Tamp 1.0 (Webserver) ( built july 27, 2021 )"
+	    echo "Copyright (c) techx"
+     ;;
    *)  
       echo -e "`basename ${0}`:usage\e[38;5;198m:\e[0m tamp \e[38;1;198m-options\e[0m\ntry\e[38;5;198m:\e[0m tamp \e[38;5;198m-h\e[0m for help" 
       exit 1 # Command to come out of the program with status 1
