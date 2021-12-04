@@ -52,7 +52,7 @@ case ${option} in
 	echo -e "\e[1;38;5;29mtamp -log    \e[1;38;5;198mTo Check http Access & Error logs"
 	echo -e "\e[1;38;5;29mtamp -clog   \e[1;38;5;198mTo Clear log history"
 	echo -e "\e[1;38;5;29mtamp -un     \e[1;38;5;198mTo Uninstall Tamp Server\e[0m"
-	echo -e "\e[1;38;5;29mtamp -un     \e[1;38;5;198mTo check Tamp version\e[0m"
+	echo -e "\e[1;38;5;29mtamp -un     \e[1;38;5;198mTo Check Tamp Version\e[0m"
 	echo -e "\e[1;38;5;29mtamp -h      \e[1;38;5;198mFor help\e[0m"
       ;;
 
