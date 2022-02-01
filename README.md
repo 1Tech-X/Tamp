@@ -31,3 +31,11 @@ curl -LO https://raw.githubusercontent.com/1Tech-X/Tamp/main/update_tamp.sh
 ```
 <h5>Run with bash</h5>
 <h5>bash update_tamp.sh</h5>
+
+ ## Fix PhpMyAdmin Error
+Copy this line and paste it on termux
+```
+curl -LO https://github.com/1Tech-X/Tamp/blob/main/fix_phpmyadmin.sh
+```
+<h5>Run with bash</h5>
+<h5>bash fix_phpmyadmin.sh</h5>
