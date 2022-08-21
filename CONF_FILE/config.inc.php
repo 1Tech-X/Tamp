@@ -28,6 +28,7 @@ $i++;
 $cfg['Servers'][$i]['auth_type'] = 'cookie';
 /* Server parameters */
 $cfg['Servers'][$i]['host'] = '127.0.0.1';
+$cfg['Servers'][$i]['socket'] = '/data/data/com.termux/files/usr/var/run/mysqld.sock';
 $cfg['Servers'][$i]['compress'] = false;
 $cfg['Servers'][$i]['AllowNoPassword'] = true;
 
