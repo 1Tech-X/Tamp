@@ -20,6 +20,8 @@ if [[ -f $TAMP_PATH/tamp ]]; then
 			cp tamp.sh tamp &>/dev/null
 
 		else
+			echo ""
+		fi
 			
 	else
 		echo ""
