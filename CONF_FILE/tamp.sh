@@ -30,10 +30,10 @@ case ${option} in
 		   sleep .30s
 		   printf "\b\b\b\b\b\b\b\b";
 	   done
-	   killall httpd
-	   killall mysqld &> /dev/null
-	   killall /data/data/com.termux/files/usr/bin/mariadbd &> /dev/null
-	   killall mysqld_safe &> /dev/null
+	   h=`pgrep httpd`
+	   kill -9 $h &>/dev/null
+	   m=`pgrep mysqld`
+	   kill -9 $m &>/dev/null
 	   printf "   \b\b\b\b\b"
 	   printf "\e[1;34m[\e[1;32m Done \e[1;34m]\e[0m";
 	   echo "";
@@ -119,9 +119,11 @@ case ${option} in
 	echo -ne  "\033[1;34m\r[\e[1;31m*\e[1;34m] Restarting Tamp Server.....\e[34m[\033[31m$i\033[34m]\033[0m   ";
 	sleep .30s
 	printf "\b\b\b\b\b\b\b\b";
- 	done
-	killall httpd &> /dev/null
-	killall mysqld &> /dev/null
+        done
+	h=`pgrep httpd`
+	kill -9 $h &>/dev/null
+	m=`pgrep mysqld`
+	kill -9 $m &>/dev/null
 	if [[ -f /data/data/com.termux/files/usr/var/run/apache2/httpd.pid ]]; then
 		rm /data/data/com.termux/files/usr/var/run/apache2/httpd.pid
 		httpd &> /dev/null
